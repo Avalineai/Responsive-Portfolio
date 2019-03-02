@@ -224,7 +224,6 @@ footer {
     .imagebox, .resize {
         width: 300px;
         height: auto;
-       
     }
     .imagebox {
         margin: 10px;
@@ -267,7 +266,6 @@ footer {
     .imagebox, .resize {
         width: 300px;
         height: auto;
-       
     }
     .imagebox {
         margin: 10px;
@@ -291,9 +289,14 @@ footer {
         width: 640px;
         height: 90px;
     }
-    header, .container1 {
+    header {
+        position: static;
+        height: 150px;
+    }
+    
+    .container1 {
         width: 640px;
-        height: 180px;
+        /*height: 180px;*/
         margin: 0;
         padding: 0;
         display: flex;
@@ -310,7 +313,6 @@ footer {
     .imagebox, .resize {
         width: 500px;
         height: auto;
-       
     }
     .imagebox {
         margin: 20px 0 10px 0;
